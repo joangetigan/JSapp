@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Combination</title>
+<!-- CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="combination.css">
+
+</head>
+
+
+
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-4">
+			<div>Beat your seatmate by guessing their combination of B's and W's</div>
+
+			<h2>Combination</h2>
+			<textarea id="guess1"></textarea>
+			<textarea id="guess2"></textarea>
+			<textarea id="guess3"></textarea>
+			<textarea id="guess4"></textarea>
+
+
+			<button id="start">Let your seatmate guess!</button><br>
+			<textarea id="ans1"></textarea>
+			<textarea id="ans2"></textarea>
+			<textarea id="ans3"></textarea>
+			<textarea id="ans4"></textarea><br>
+
+			<button id="check">Check</button><br>
+			<button id="try">Try Again</button>
+			<button id="give_up">Give Up</button>
+		</div>
+
+		<div class="col-xs-6">
+			<div id="wrong">
+				<img src="crying.svg">
+			</div>
+			<div id="correct1">
+				<img src="sun.gif">
+			</div>
+			<div id="correct2">
+				<img src="sun.gif">
+				<img src="sun.gif">
+			</div>
+			<div id="correct3">
+				<img src="sun.gif">
+				<img src="sun.gif">
+				<img src="sun.gif">
+			</div>
+			<div id="correct4">
+				<h2>Got it!</h2>
+				<img src="sun.gif">
+				<img src="sun.gif">
+				<img src="sun.gif">
+				<img src="sun.gif">
+			</div>
+		</div>
+
+		<div class="col-xs-2">
+			<div id="record"></div>
+		</div>
+
+
+
+	</div>
+			
+		
+</div>
+
+
+<script type="text/javascript" src="combination.js"></script>
+</body>
+</html>

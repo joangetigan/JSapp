@@ -1,0 +1,38 @@
+body {
+	padding-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+}
+#start,
+#check,
+#try,
+#give_up {
+	margin-top: 10px;
+}
+#guess1,
+#guess2,
+#guess3,
+#guess4,
+#ans1,
+#ans2,
+#ans3,
+#ans4 {
+	height: 50px;
+	width: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	resize: none;
+}
+img {
+	height: 100px;
+	width: 100px;
+}
+#wrong,
+#correct1,
+#correct2,
+#correct3,
+#correct4,
+#try {
+	display: none;
+}
+
